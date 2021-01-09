@@ -1,2 +1,2 @@
 # Poxif123.github.io
-a way to use adsense and ahk to profit
+my personal website for whatever the fuck i decide to make, probably electronic engineering shit
