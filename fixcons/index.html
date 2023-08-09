@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <title>fix encrypted cons</title>
+    </head>
+    <body>
+        <h1>How to fix encrypted CONs</h1>
+        <hr>
+        <p>If you've tried converting certain _con files from the C3 database to ps3 to use in Rock Band 2 or 3, you'll know that some have a tendency to infinitely load.</p>
+        <p>This is caused by some song authors encrypting the song's .mogg file, which has the actual music in it. This is an issue, as Onyx is unable to properly convert these using the "Load Song" menu.</p>
+        <p>Fortunately, this is solvable. This page will tell you all you need to know to get these songs working again.</p>
+        <hr>
+        <h3>Steps:</h3>
+        <ol>
+            <li>Download and extract <a href="https://archive.org/details/c3contools">C3 Con Tools (with auth files)</a>. This has the necessary files in order to decrypt the mogg.</li>
+            <li>Run the C3CONTools.exe, then click "cancel" on the update dialog that pops up. We don't want to update, as the update wipes the decryption files.</li>
+            <li>Click the orange "Batch **cryptor" button, then in the menu that pops up, click the "Decrypt" button in the bottom left.</li>
+            <li>Once that's done, click the "Select input folder" button and find the folder that your source files are in. After it's done, if it's found any valid files, a "Begin" button should pop up in the bottom right of the window.</li>
+            <li>After it's done, in the source folder should be a "decrypted" folder, where the decrypted files are. You can then run those files through Onyx and it should work.</li>
+        </ol>
+        <p>If all has gone well, you should be able to play the converted files without issue.</p>
+    </body>
+</html>
